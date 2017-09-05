@@ -1,11 +1,14 @@
 import csv
 
-with open('sfo.csv', 'r') as f:
+opponent = 'San Francisco 49ers'
+
+with open('ram.csv', 'r') as f:
     reader = csv.reader(f)
     headers = next(reader)
-    print(headers)
-    print('*******************')
+
+    opponentIndex = headers.index('Opp')
     for row in reader:
-        print(row)
+        if row[opponentIndex] == opponent:
+            print(row)
 
 f.close()
