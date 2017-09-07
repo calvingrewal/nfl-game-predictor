@@ -1,14 +1,22 @@
 import csv
+import json
 
-opponent = 'San Francisco 49ers'
+teamData = None
+with open('teams.json') as f:
+    teamData = json.load(f)
 
-with open('ram.csv', 'r') as f:
+team = 'sfo'
+opponent = 'sea'
+
+with open(team+'.csv', 'r') as f:
     reader = csv.reader(f)
     headers = next(reader)
 
     opponentIndex = headers.index('Opp')
+    opponentId = teamData["teamname"][opponent]
+
     for row in reader:
-        if row[opponentIndex] == opponent:
+        if row[opponentIndex] == teamData["id"][opponentId]:
             print(row)
 
 f.close()

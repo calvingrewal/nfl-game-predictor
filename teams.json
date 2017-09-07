@@ -1,0 +1,56 @@
+{
+  "shortnames": {
+    "San Francisco 49ers": "sfo",
+    "Arizona Cardinals": "crd",
+    "Seattle Seahawks": "sea",
+    "Los Angeles Rams": "ram",
+    "St. Louis Rams": "ram"
+  },
+  "longnames": {
+    "sfo": "San Francisco 49ers",
+    "crd": "Arizona Cardinals",
+    "sea": "Seattle Seahawks",
+    "ram": "Los Angeles Rams"
+  },
+  "teamname": {
+    "sfo": "32",
+    "crd": "30",
+    "sea": "29",
+    "ram": "31"
+  },
+  "id": {
+    "1": "New England Patriots",
+    "2": "Miami Dolphins",
+    "3": "Buffalo Bills",
+    "4": "New York Jets",
+    "5": "Pittsburgh Steelers",
+    "6": "Baltimore Ravens",
+    "7": "Cincinnati Bengals",
+    "8": "Cleveland Browns",
+    "9": "Houston Texans",
+    "10": "Tennessee Titans",
+    "11": "Indianapolis Colts",
+    "12": "Jacksonville Jaguars",
+    "13": "Kansas City Chiefs",
+    "14": "Oakland Raiders",
+    "15": "Denver Broncos",
+    "16": "San Diego Chargers",
+    "17": "Dallas Cowboys",
+    "18": "New York Giants",
+    "19": "Washington Redskins",
+    "20": "Philadelphia Eagles",
+    "21": "Green Bay Packers",
+    "22": "Detroit Lions",
+    "23": "Minnesota Vikings",
+    "24": "Chicago Bears",
+    "25": "Atlanta Falcons",
+    "26": "Tampa Bay Buccaneers",
+    "27": "New Orleans Saints",
+    "28": "Carolina Panthers",
+    "29": "Seattle Seahawks",
+    "30": "Arizona Cardinals",
+    "31": "Los Angeles Rams",
+    "32": "San Francisco 49ers"
+
+  }
+}
